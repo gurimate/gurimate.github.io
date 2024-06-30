@@ -1,6 +1,6 @@
 body {
   padding: 0;
-  margin: 0;
+  margin: 0 7.2em;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -13,12 +13,17 @@ a {
 
 .topbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  border-bottom: 2px solid lightgray;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: white;
 }
 
 .logo-text {
-  padding: 0 2em;
+  padding: 0.2em 0;
   font-size: 2em;
   font-weight: bold;
 }
@@ -39,10 +44,11 @@ ul {
 }
 
 section {
-  margin: 0 7.2em;
+  height: 350px;
+  text-align: center;
 }
+
 .first-section {
-  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -60,19 +66,15 @@ section {
   height: 10%;
 }
 .second-section {
-  height: 500px;
   background-color: lightyellow;
 }
 .third-section {
-  height: 500px;
   background-color: lightgreen;
 }
 .fourth-section {
-  height: 500px;
   background-color: goldenrod;
 }
 .fifth-section {
-  height: 500px;
   background-color: cadetblue;
 }
 footer {
