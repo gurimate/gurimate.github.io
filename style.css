@@ -16,6 +16,11 @@ h3 {
   align-self: center;
 }
 
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -26,8 +31,6 @@ nav {
 
 .nav-links {
   display: flex;
-  justify-content: center;
-  margin-top: 0px;
 }
 
 .nav-links li {
